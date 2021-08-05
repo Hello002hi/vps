@@ -1,14 +1,14 @@
 name: Windows 10 CRD Avi
 
-off: 
+on: 
   workflow_dispatch:
    inputs:
       crdauthcode:
         description: 'Enter ChromeRemoteDesktop Headless code'
-        required: true
+        required: false
       pincode:
         description: 'Six digit Pin'
-        required: true
+        required: false
 
 jobs:
   build:
