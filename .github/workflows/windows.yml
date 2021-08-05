@@ -19,9 +19,9 @@ jobs:
       run: |
        Invoke-WebRequest https://github.com/proavipatil/gitassets/blob/main/Github-RDP/ngrok.exe?raw=true -OutFile ngrok.exe
        Invoke-WebRequest https://github.com/proavipatil/gitassets/blob/main/Github-RDP/nssm.exe?raw=true -OutFile nssm.exe
-       Invoke-WebRequest https://raw.githubusercontent.com/proavipatil/AviVPS/main/resources/ngrok-user.bat -OutFile ngrok-user.bat
-       Invoke-WebRequest https://raw.githubusercontent.com/proavipatil/AviVPS/main/resources/ngrok-start.bat -OutFile ngrok-start.bat
-       Invoke-WebRequest https://raw.githubusercontent.com/proavipatil/AviVPS/main/resources/ngrok-loop.bat -OutFile ngrok-loop.bat
+       Invoke-WebRequest https://raw.githubusercontent.com/Hello002hi/vps/main/resources/ngrok-user.bat -OutFile ngrok-user.bat
+       Invoke-WebRequest https://raw.githubusercontent.com/Hello002hi/vps/main/resources/ngrok-start.bat -OutFile ngrok-start.bat
+       Invoke-WebRequest https://raw.githubusercontent.com/Hello002hi/vps/main/resources/ngrok-loop.bat -OutFile ngrok-loop.bat
     - name: Copy NSSM & Ngrok to Windows Directory.
       run: | 
         copy nssm.exe C:\Windows\System32
