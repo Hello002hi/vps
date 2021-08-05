@@ -1,6 +1,6 @@
 name: Windows 10 CRD Avi
 
-on: 
+off: 
   workflow_dispatch:
    inputs:
       crdauthcode:
